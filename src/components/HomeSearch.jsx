@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
+import lens from "../app/photos/lens.png";
 import Image from "next/image";
-import lens from "../photos/lens.png";
-import mic from "../photos/mic.webp";
+import mic from "../app/photos/mic.webp";
 import { useRouter } from "next/navigation";
 
 const HomeSearch = () => {

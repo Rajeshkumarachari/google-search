@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { TbGridDots } from "react-icons/tb";
 import Image from "next/image";
-import lab from "../photos/lab.png";
+import lab from "../app/photos/lab.png";
 
 export default function HomeHeader() {
   return (

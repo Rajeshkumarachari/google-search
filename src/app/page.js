@@ -1,8 +1,8 @@
 import React from "react";
-import HomeHeader from "./components/HomeHeader";
 import Image from "next/image";
 import { GOOGLE_LOGO } from "../../constant";
-import HomeSearch from "./components/HomeSearch";
+import HomeHeader from "@/components/HomeHeader";
+import HomeSearch from "@/components/HomeSearch";
 const Home = () => {
   return (
     <>
