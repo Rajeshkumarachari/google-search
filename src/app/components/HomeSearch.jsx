@@ -77,7 +77,7 @@ const HomeSearch = () => {
           Google offered in:
           {language.map((lang, i) => (
             <span
-              className=" mx-1 cursor-pointer hover:underline text-sm text-blue-900 font-medium"
+              className=" mx-1 cursor-pointer hover:underline text-sm text-blue-900 font-bold"
               key={i}
             >
               {lang}
