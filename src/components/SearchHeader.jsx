@@ -5,6 +5,7 @@ import SearchBox from "./SearchBox";
 import { TbGridDots } from "react-icons/tb";
 import Image from "next/image";
 import lab from "../app/photos/lab.png";
+import { Suspense } from "react";
 
 const SearchHeader = () => {
   return (
@@ -20,7 +21,9 @@ const SearchHeader = () => {
             />
           </Link>
           <div>
-            <SearchBox className="" />
+            <Suspense fallback={<div>Loading...</div>}>
+              <SearchBox />
+            </Suspense>
           </div>
         </div>
         <div className=" flex -mt-12">
