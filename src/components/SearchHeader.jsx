@@ -6,6 +6,7 @@ import { TbGridDots } from "react-icons/tb";
 import Image from "next/image";
 import lab from "../app/photos/lab.png";
 import { Suspense } from "react";
+import SearchHeaderOptions from "./SearchHeaderOptions";
 
 const SearchHeader = () => {
   return (
@@ -38,6 +39,7 @@ const SearchHeader = () => {
           </button>
         </div>
       </div>
+      <SearchHeaderOptions />
     </header>
   );
 };
