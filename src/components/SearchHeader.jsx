@@ -21,7 +21,7 @@ const SearchHeader = () => {
             />
           </Link>
           <div>
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense>
               <SearchBox />
             </Suspense>
           </div>
