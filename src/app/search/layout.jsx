@@ -1,6 +1,6 @@
 import React from "react";
-import SearchHeader from "../components/SearchHeader";
 import "./../globals.css";
+import SearchHeader from "@/components/SearchHeader";
 const layout = ({ children }) => {
   return (
     <div className="text-sm">

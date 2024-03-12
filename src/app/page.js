@@ -3,6 +3,8 @@ import Image from "next/image";
 import { GOOGLE_LOGO } from "../../constant";
 import HomeHeader from "@/components/HomeHeader";
 import HomeSearch from "@/components/HomeSearch";
+import "./globals.css";
+
 const Home = () => {
   return (
     <>
