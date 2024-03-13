@@ -1,4 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
+import PaginationButton from "./PaginationButton";
 
 //import PaginationButtons from "./PaginationButtons";
 
@@ -30,9 +32,9 @@ export default function ImageSearchResults({ results }) {
           </div>
         ))}
       </div>
-      {/* <div className="ml-16">
-       // <PaginationButtons />
-      </div> */}
+      <div className="ml-16">
+        <PaginationButton />
+      </div>
     </div>
   );
 }
