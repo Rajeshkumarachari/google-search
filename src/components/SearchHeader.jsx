@@ -39,7 +39,9 @@ const SearchHeader = () => {
           </button>
         </div>
       </div>
-      <SearchHeaderOptions />
+      <Suspense>
+        <SearchHeaderOptions />
+      </Suspense>
     </header>
   );
 };
